@@ -1,0 +1,14 @@
+h1{
+    margin: 0 auto;
+    text-shadow: 4px 4px rgb(0, 0, 0);
+    font-size: 4.5em;
+    color: white;
+}
+#b{
+    background-color: rgb(84, 168, 224);
+    padding: 300px;
+}
+p{
+    color: white;
+    font-size: 3em;
+}

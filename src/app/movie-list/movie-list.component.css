@@ -1,0 +1,9 @@
+main{
+    background-color: rgb(84, 168, 224);
+    padding-bottom: 100px;
+}
+button{
+    background-image: linear-gradient(to right, rgb(64, 169, 230)20%, rgb(32, 10, 156));
+    margin-left: 15px;
+    border: none;
+}

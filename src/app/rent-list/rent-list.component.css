@@ -1,0 +1,26 @@
+.c{
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    background-color: rgb(105, 187, 224);
+    padding-top: 200px;
+    font-size: 1.5em;
+}
+#d{
+    background-color: rgb(105, 187, 224);
+    padding-bottom: 200px;
+    font-size: 1.5em;
+}
+.c label{
+    margin-bottom: 50px;
+}
+.so{
+    margin-top: 50px;
+}
+#moviequantity{
+   width: 400px;
+   margin: 0 auto;
+}
+h1{
+    text-shadow: 3px 3px white;
+}

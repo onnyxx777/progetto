@@ -1,0 +1,10 @@
+nav{
+    background-image: linear-gradient(to right, rgb(2, 7, 29) 20%, rgb(7, 99, 204));
+    opacity: 0.9;
+}
+.navbar a{
+    color: white;
+}
+.fot{
+    margin: 0 auto;
+}

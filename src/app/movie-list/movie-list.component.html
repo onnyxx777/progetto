@@ -1,0 +1,15 @@
+<main>
+    <div class="container">
+      <div class="row">
+            <div *ngFor = "let movie of movielist; let indice = index;" class="card p-5" style="background-color: navy; color: white; border-radius: 15px;margin: 0 auto; margin-top: 90px;">
+              <img [src]="movie.image" class="m-3" style="width: 200px; height: 250px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{movie.title}}</h5>
+                <p class="card-text">{{movie.plot | slice : 0:40}}.</p>
+                <button class="btn btn-primary" (click) ="viewDetail(movie.id)">VIEW LIST</button>
+                <button class="btn btn-primary" (click)="editdetail(movie.id)">EDIT MOVIE</button>
+              </div>
+            </div>
+      </div>
+    </div>
+  </main>
